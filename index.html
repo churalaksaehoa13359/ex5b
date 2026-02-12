@@ -15,7 +15,7 @@
 		<hr>
 		<form role="form" method="GET">
 		  <div class="form-group">
-			<label for="tem">Current temperature:</label>
+			<label for="tem">Current temperature (Celsius) :</label>
 			<input type="text" class="form-control" name="temp" id="temp" value="20">
 		  </div><br>
 		  <div class="form-group">
@@ -63,7 +63,7 @@
                     u1 = "Réaumur";
 			   }
 			   
-			   alert("Temperature is "+t1+" in "+u1);
+			   $("#result").text("Temperature is " + t1 + " in " + u1);
 			});
 		});
 	</script>
