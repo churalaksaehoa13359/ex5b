@@ -31,7 +31,7 @@
 	</div>
 	<div id="result" style="margin-top:10px;margin-left:10px; font-size: 20px; color:red;">
 	</div>
-	
+
 	<script>
     function validateTemperature(t){
         if(isNaN(t)){
@@ -79,7 +79,7 @@
             var t1 = result.value;
             var u1 = result.unit;
 
-            alert("Temperature is " + t1 + " in " + u1);
+            $("#result").text("Temperature is " + t1 + " in " + u1);
         });
     });
 </script>
